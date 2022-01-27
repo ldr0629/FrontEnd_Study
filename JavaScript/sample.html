@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>구구단 프로그램</title>
+	<script>
+		function gugu(num) {
+			document.write("===" + num + "단 ===" + "<br>");
+			for(var i = 1; i<=9; i++) {
+				document.write(num + " x " + i + " = " + num*i + "<br>");
+			}
+		}
+	</script>
+</head>
+<body>
+	<h2>구구단 프로그램</h2>
+	<hr>
+	<script>
+		alert("☞구구단 게임☜");
+
+		var num = prompt("원하는 단수를 입력하세요 : ", "");
+		var real_num = parseInt(num);
+		gugu(real_num);
+	</script>
+</body>
+</html>
